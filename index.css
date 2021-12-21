@@ -146,10 +146,8 @@ main > form > button:hover{
 
 main > form > button:active{
     background-color: rgb(9, 16, 114);
-
 }
 
 main > form > button:focus{
     background-color: chartreuse;
-
 }
