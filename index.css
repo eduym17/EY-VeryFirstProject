@@ -1,0 +1,150 @@
+/* COMENTARIO*/
+
+nav {
+    display: flex;
+}
+
+nav > a > img {
+    height: 50px;
+    margin-left: 50px;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+nav > ul > li {
+    margin: 0px 15px;
+}
+
+#contactsales {
+    color: white;
+    background-color:rgb(141, 22, 125);
+    padding: 10px;
+    border-radius: 20px;
+    margin: -10px 10px;
+}
+
+h1 {
+    color: white;
+    padding: 30px;
+    display: flex;
+    background-image:url(https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105__480.png);
+    text-align: left;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 70px;
+}
+
+main > a > img{
+    display: flex;
+    height: 15px;
+    margin: 10px 30px;
+}
+
+main > ul {
+    list-style-image: url('home.png');
+    display: flex;
+    list-style: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 13px;
+    color: rgb(84, 96, 109);
+}
+
+main > ul > li {
+    display: flex;
+    margin-left: 50px;
+    margin: -27px 7px;
+}
+
+main > p {
+    display: flex;
+    width: 550px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    color: rgb(69, 70, 75);
+    margin: 25px 50px;
+    text-align: left;
+}
+
+main > h2 {
+    color: rgb(141, 22, 125);
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px 50px;
+}
+
+main > div > ul {
+    list-style: none;
+}
+
+main > div > ul li::before {
+    content: "\2022";
+    color: rgb(141, 22, 125);
+    margin-right: 5px;
+}
+
+main > div > ul > li {
+    margin-left: 15px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(69, 70, 75);
+}
+
+main > form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0px 55px;
+    display: flex;
+    flex-direction: column;
+}
+
+main > form > label {
+    margin-top: 8px;
+}
+
+main > form > input {
+    width: 400px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px 0px;
+    border-color: rgb(141, 22, 125);
+    border-radius: 20px;
+}
+
+main > form > input::placeholder {
+    color: rgb(241, 148, 25);
+    padding-left: 5px;
+    opacity: 1;
+}
+
+main > form > button {
+    background-color: rgb(141, 22, 125);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: rgb(241, 148, 25);
+    width: 300px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+main > form > button:hover{
+    background-color: rgb(177, 17, 155);
+    cursor: pointer;
+}
+
+main > form > button:active{
+    background-color: rgb(9, 16, 114);
+
+}
+
+main > form > button:focus{
+    background-color: chartreuse;
+
+}
