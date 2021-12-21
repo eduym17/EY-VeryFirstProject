@@ -115,6 +115,11 @@ main > form > input {
     border-radius: 20px;
 }
 
+main > form > input:focus {
+    outline: none;
+    border: 1px solid greenyellow;
+}
+
 main > form > input::placeholder {
     color: rgb(241, 148, 25);
     padding-left: 5px;
