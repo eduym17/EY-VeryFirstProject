@@ -13,7 +13,7 @@
 
 <body>
   <header>
-    <nav>
+    <nav class="container">
       <a target="_blank" href="/index.html"><img src="/assets/images/lionferos.jpg" alt=""></a>
       <ul>
         <li>Services</li>
@@ -26,44 +26,45 @@
   </header>
 
   <main>
-    <h1>Overcoming the 6 most common <br>threat modeling misconceptions</h1>
-    <a href="index.html"><img src="./assets/images/home.png" alt="home"></a>
-    <ul>
-      <li>Home</li>
-      <li>Resources</li>
-      <li>eBooks and Whitepapers</li>
-      <li>Most Common Security Threat Modeling Misconceptions</li>
-    </ul>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo iusto tempore, corporis quae voluptatem
-      reiciendis odio veritatis dignissimos aperiam quis dolorum nostrum cupiditate ducimus eos velit quasi
-      eveniet qui cumque esse ullam. Ea numquam ratione cum nihil nemo sequi tenetur, consequuntur fugiat
-      similique! Veritatis temporibus id quibusdam voluptate, repellendus autem delectus voluptatibus magnam
-      doloremque cumque ex quidem facilis fugiat necessitatibus tenetur molestias labore soluta!</p>
-    <h2>Download the complete eBook to:</h2>
-    <div>
-      <ul>
-        <li>Learn about the most common threat modeling misconceptions</li>
-        <li>Discover the 5 pillars of a succesful threat model</li>
-        <li>Determine how to take control of your risk management process</li><br><br>
+    <div class="container">
+      <h1 class="header1">Overcoming the 6 most common <br>threat modeling misconceptions</h1>
+      <a href="index.html"><img src="./assets/images/home.png" alt="home"></a>
+      <ul class="toplist">
+        <li>Home</li>
+        <li>Resources</li>
+        <li>eBooks and Whitepapers</li>
+        <li>Most Common Security Threat Modeling Misconceptions</li>
       </ul>
+      <p class="topparagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo iusto tempore, corporis quae voluptatem
+        reiciendis odio veritatis dignissimos aperiam quis dolorum nostrum cupiditate ducimus eos velit quasi
+        eveniet qui cumque esse ullam. Ea numquam ratione cum nihil nemo sequi tenetur, consequuntur fugiat
+        similique! Veritatis temporibus id quibusdam voluptate, repellendus autem delectus voluptatibus magnam
+        doloremque cumque ex quidem facilis fugiat necessitatibus tenetur molestias labore soluta!</p>
+      <h2 class="header2">Download the complete eBook to:</h2>
+      <div>
+        <ul class="secondlist">
+          <li>Learn about the most common threat modeling misconceptions</li>
+          <li>Discover the 5 pillars of a succesful threat model</li>
+          <li>Determine how to take control of your risk management process</li><br><br>
+        </ul>
+      </div>
+
+      <form action="/data" method="POST">
+        <label for="firstname">First Name</label>
+        <input id="firstname" type="text" name="firstname" placeholder="John" required>
+
+        <label for="lastname">Last Name</label>
+        <input id="lastname" type="text" name="lastname" placeholder="Doe" required>
+
+        <label for="workemail">Work Email</label>
+        <input id="workemail" type="email" name="workemail" placeholder="john.doe@mail.com" required>
+
+        <label for="companyname">Company Name</label>
+        <input id="companyname" type="text" name="companyname" placeholder="Doe INC">
+
+        <button type="submit">Read The eBook</button>
+      </form>
     </div>
-
-    <form action="/data" method="POST">
-      <label for="firstname">First Name</label>
-      <input id="firstname" type="text" name="firstname" placeholder="John" required>
-
-      <label for="lastname">Last Name</label>
-      <input id="lastname" type="text" name="lastname" placeholder="Doe" required>
-
-      <label for="workemail">Work Email</label>
-      <input id="workemail" type="email" name="workemail" placeholder="john.doe@mail.com" required>
-
-      <label for="companyname">Company Name</label>
-      <input id="companyname" type="text" name="companyname" placeholder="Doe INC">
-
-      <button type="submit">Read The eBook</button>
-    </form>
-
   </main>
 
   <footer>
