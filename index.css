@@ -4,24 +4,24 @@ nav {
     display: flex;
 }
 
-nav > a > img {
+nav>a>img {
     height: 50px;
     margin-left: 50px;
 }
 
-nav > ul {
+nav>ul {
     display: flex;
     list-style: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-nav > ul > li {
+nav>ul>li {
     margin: 0px 15px;
 }
 
 #contactsales {
     color: white;
-    background-color:rgb(141, 22, 125);
+    background-color: rgb(141, 22, 125);
     padding: 10px;
     border-radius: 20px;
     margin: -10px 10px;
@@ -31,14 +31,15 @@ nav > ul > li {
     color: white;
     padding: 30px;
     display: flex;
-    background-image:url(https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105__480.png);
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105__480.png);
     text-align: left;
     font-size: 40px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 20px 0px;
 }
 
-main, header {
+main,
+header {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -51,16 +52,16 @@ main, header {
     max-width: 1200px;
 }
 
-a > img{
+a>img {
     display: flex;
     height: 14px;
     margin: 0px 30px;
 }
 
-.toplist{
+.toplist {
     display: flex;
     list-style: none;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 13px;
     color: rgb(84, 96, 109);
 }
@@ -73,7 +74,7 @@ a > img{
 
 .topparagraph {
     width: 600px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
     color: rgb(69, 70, 75);
     margin: 25px 50px;
@@ -87,13 +88,13 @@ a > img{
     margin: 0px 50px;
 }
 
-main > div > ul {
+main>div>ul {
     list-style: none;
 }
 
 .secondlist {
     list-style: none;
-    
+
 }
 
 .secondlist li {
@@ -110,8 +111,6 @@ main > div > ul {
     margin-right: 5px;
 }
 
-
-
 form {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
@@ -121,11 +120,11 @@ form {
     flex-direction: column;
 }
 
-form > label {
+form>label {
     margin-top: 8px;
 }
 
-form > input {
+form>input {
     width: 400px;
     padding: 5px 10px;
     margin: 5px 0px;
@@ -133,18 +132,18 @@ form > input {
     border-radius: 20px;
 }
 
-form > input:focus {
+form>input:focus {
     outline: none;
     border: 1px solid greenyellow;
 }
 
-form > input::placeholder {
+form>input::placeholder {
     color: rgb(241, 148, 25);
     opacity: 1;
     /* padding: 0px; El Padding del placeholder se mueve igual que el del input, mantiene misma dimensión */
 }
 
-form > button {
+form>button {
     background-color: rgb(141, 22, 125);
     color: rgb(255, 255, 255);
     padding: 10px;
@@ -157,15 +156,15 @@ form > button {
     margin-top: 10px;
 }
 
-form > button:hover{
+form>button:hover {
     background-color: rgb(177, 17, 155);
     cursor: pointer;
 }
 
-form > button:active{
+form>button:active {
     background-color: rgb(147, 22, 163);
 }
 
-main > form > button:focus{
+main>form>button:focus {
     background-color: chartreuse;
 }
